@@ -1,0 +1,14 @@
+PODS:
+  - JCStateControl (0.1.0)
+
+DEPENDENCIES:
+  - JCStateControl (from `../`)
+
+EXTERNAL SOURCES:
+  JCStateControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JCStateControl: b69323f69f9c3433bde40301e2d0354c07a5ca18
+
+COCOAPODS: 0.37.2

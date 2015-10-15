@@ -1,0 +1,25 @@
+{
+  "name": "JCStateControl",
+  "version": "0.1.0",
+  "summary": "A short description of JCStateControl.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/JCStateControl",
+  "license": "MIT",
+  "authors": {
+    "Cerko": "313574889@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/JCStateControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "JCStateControl": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

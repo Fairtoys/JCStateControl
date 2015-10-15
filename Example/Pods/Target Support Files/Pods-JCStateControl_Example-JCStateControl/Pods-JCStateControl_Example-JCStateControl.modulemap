@@ -1,0 +1,6 @@
+framework module JCStateControl {
+  umbrella header "Pods-JCStateControl_Example-JCStateControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

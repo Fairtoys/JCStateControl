@@ -1,0 +1,1098 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06FC90FCA7B7149F1621E777 /* JCStateControl.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E5AF596197956EF87139F8B0 /* JCStateControl.bundle */; };
+		082F072FDEA09410ADE04106 /* JCStateDependentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB515AC23AE37D8312FC50E /* JCStateDependentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E13AC6F02F3298C8E7C4F2 /* Pods-JCStateControl_Example-JCStateControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4D1AE8CFF668FFE6663BFD /* Pods-JCStateControl_Example-JCStateControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C80138CF5192AB0191CD8BC /* JCStateControl.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD256AD8CBBA296025A840CD /* JCStateControl.bundle */; };
+		1ED49B6AFAEC846702E386F4 /* JCStateControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD72E38B1DFCEB978B91391 /* JCStateControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21962C8E337D942B19A82228 /* JCStateDependentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D17ED3D44A64597BF91A9EE1 /* JCStateDependentControl.m */; };
+		29366737FB0D21E56D6BA88D /* Pods-JCStateControl_Example-JCStateControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E0B2DC35081C3B7E2393C1 /* Pods-JCStateControl_Example-JCStateControl-dummy.m */; };
+		2A3C17180E3A7F1748253A27 /* JCState.h in Headers */ = {isa = PBXBuildFile; fileRef = A574E3232BEDA063AB9871F1 /* JCState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC649EA200FC9D87D9DC45A /* JCStateDependentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D17ED3D44A64597BF91A9EE1 /* JCStateDependentControl.m */; };
+		31ED10B5982E3AF3587C68B4 /* JCMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEBB935AB63ED50D1AA21DD /* JCMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CA1476804F193A91D895271 /* JCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 257421CEA878F033F8263534 /* JCMessage.m */; };
+		43AA19B3D78ECFEA81C09AB7 /* JCAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CB2D903E93A61F535B4F1B /* JCAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		442C3482C16E188908F5AAE9 /* JCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6A8528BFEFD1FEA1DBC878 /* JCAction.m */; };
+		4881F4165406E565882E5A18 /* Pods-JCStateControl_Tests-JCStateControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D28C88FB0737005400718F /* Pods-JCStateControl_Tests-JCStateControl-dummy.m */; };
+		4A86F1A7E324E5B24C1B6A90 /* Pods-JCStateControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9EB4A056A93D89A3CA14675 /* Pods-JCStateControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A37CD487C558B8D39F8E21 /* JCState.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CD06B9912FD73A6C90E695 /* JCState.m */; };
+		5DD997909E568003E707A929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEBB5E10F6B246213529FF5 /* Foundation.framework */; };
+		61C8330614DFE736757062AA /* Hello.h in Headers */ = {isa = PBXBuildFile; fileRef = C9519964FB8FC2E47D7E35A2 /* Hello.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BD0A7D695C3F37F42E4D969 /* Pods-JCStateControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F327A46148AAC9D30A6297A7 /* Pods-JCStateControl_Example-dummy.m */; };
+		6D06E664EE95B29F170EA331 /* JCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6A8528BFEFD1FEA1DBC878 /* JCAction.m */; };
+		7801DC2751748DE44192FFAF /* JCStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 077337AD7CC4D3653384737F /* JCStateMachine.m */; };
+		7C4C4F4DE4B8D56BA19B61CA /* JCStateDependentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB515AC23AE37D8312FC50E /* JCStateDependentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C5724061687B670BF31015F /* Pods-JCStateControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCD424808872E65D3AA55ED /* Pods-JCStateControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E6B11DCAAA855EEEE846C37 /* JCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A6CDEEC77435CE042A936C /* JCEvent.m */; };
+		85F58EFBBB8CB5A694D7961B /* JCEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA8EDBD8344C2ECD1B0F316 /* JCEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86F0C23D3AB3F69CFFC1D1E6 /* JCStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 077337AD7CC4D3653384737F /* JCStateMachine.m */; };
+		8FB019573FDF48D12D2E24A4 /* JCState.h in Headers */ = {isa = PBXBuildFile; fileRef = A574E3232BEDA063AB9871F1 /* JCState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		943ACC7F2C9A011A83FD0BF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEBB5E10F6B246213529FF5 /* Foundation.framework */; };
+		9607E68A23EF354C672F11E3 /* JCAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CB2D903E93A61F535B4F1B /* JCAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F63CBA309EB3A5D254B99D5 /* JCStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 440AD057B072DB45C7D6B252 /* JCStateMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC540926E91E32599B8B9664 /* Hello.h in Headers */ = {isa = PBXBuildFile; fileRef = C9519964FB8FC2E47D7E35A2 /* Hello.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE06BAB05E008CED7CFD5464 /* JCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A6CDEEC77435CE042A936C /* JCEvent.m */; };
+		B69CB6104FF0E613A836B8CE /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = 585608D9BC06C1D8B2D1992A /* Hello.m */; };
+		C3CB8A0A06C3AD339B8528F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEBB5E10F6B246213529FF5 /* Foundation.framework */; };
+		C5EC9FDB6D186BFE4598F4EA /* JCEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA8EDBD8344C2ECD1B0F316 /* JCEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0E721D56444C1259095902A /* JCMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEBB935AB63ED50D1AA21DD /* JCMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1BB4B3C28BB6B5655B388EA /* JCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 257421CEA878F033F8263534 /* JCMessage.m */; };
+		D5E7F23B8F59A88ABF60495A /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = 585608D9BC06C1D8B2D1992A /* Hello.m */; };
+		DBCAC2D916D263D31FF9A3F6 /* JCState.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CD06B9912FD73A6C90E695 /* JCState.m */; };
+		E515E0075015069F1010836B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEBB5E10F6B246213529FF5 /* Foundation.framework */; };
+		E972A33FE5A03BE37AC166F5 /* Pods-JCStateControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 788124C40AE39FDAA7C070DB /* Pods-JCStateControl_Tests-dummy.m */; };
+		EA07AB763AD48E54F93FA4C8 /* JCStateControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD72E38B1DFCEB978B91391 /* JCStateControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB0666B91A9FD3C86EE62D36 /* Pods-JCStateControl_Tests-JCStateControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2F0586C60F9CD36FFE90CA /* Pods-JCStateControl_Tests-JCStateControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F99C910553266F3ED4700A23 /* JCStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 440AD057B072DB45C7D6B252 /* JCStateMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2516730DFC4B837CB029EE9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51A22019365D88BE685C2D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B71956F1605CAEDDA4E7321B;
+			remoteInfo = "Pods-JCStateControl_Example-JCStateControl";
+		};
+		7DDD5A8776B88943774E8FE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51A22019365D88BE685C2D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A9CFFA87F93202CD0B3D4D;
+			remoteInfo = "Pods-JCStateControl_Tests-JCStateControl-JCStateControl";
+		};
+		CCE90430750403F1B589ABA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51A22019365D88BE685C2D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815B03AA14B532B2D1385616;
+			remoteInfo = "Pods-JCStateControl_Example-JCStateControl-JCStateControl";
+		};
+		D7613AD86CE3EC3564C4A6AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51A22019365D88BE685C2D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD71E8C0FE19956987C02735;
+			remoteInfo = "Pods-JCStateControl_Tests-JCStateControl";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077337AD7CC4D3653384737F /* JCStateMachine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JCStateMachine.m; sourceTree = "<group>"; };
+		0AEBB935AB63ED50D1AA21DD /* JCMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JCMessage.h; sourceTree = "<group>"; };
+		0B05EBF8C554D1E5E227DCE6 /* Pods-JCStateControl_Example-JCStateControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCStateControl_Example-JCStateControl.xcconfig"; sourceTree = "<group>"; };
+		0DA8EDBD8344C2ECD1B0F316 /* JCEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JCEvent.h; sourceTree = "<group>"; };
+		12CB2D903E93A61F535B4F1B /* JCAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JCAction.h; sourceTree = "<group>"; };
+		1726609796FCE55987084EF5 /* Pods-JCStateControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCStateControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		19A4408A63541E0CE0F2F099 /* Pods-JCStateControl_Tests-JCStateControl-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCStateControl_Tests-JCStateControl-Private.xcconfig"; path = "../Pods-JCStateControl_Tests-JCStateControl/Pods-JCStateControl_Tests-JCStateControl-Private.xcconfig"; sourceTree = "<group>"; };
+		1D59583CA56B99E2E21E2FDD /* Pods_JCStateControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCStateControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E44B742FF1066A668D46857 /* JCStateControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCStateControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		241DA5EA802A01028A9BD200 /* JCStateControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCStateControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		257421CEA878F033F8263534 /* JCMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JCMessage.m; sourceTree = "<group>"; };
+		33287FE57F6DA6FF1657F0F6 /* Pods-JCStateControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCStateControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		364B340F9F971F72C7471AE9 /* Pods-JCStateControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCStateControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		39D28C88FB0737005400718F /* Pods-JCStateControl_Tests-JCStateControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JCStateControl_Tests-JCStateControl-dummy.m"; path = "../Pods-JCStateControl_Tests-JCStateControl/Pods-JCStateControl_Tests-JCStateControl-dummy.m"; sourceTree = "<group>"; };
+		3C5F6BED624EA2E55F081BE7 /* Pods-JCStateControl_Example-JCStateControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCStateControl_Example-JCStateControl-prefix.pch"; sourceTree = "<group>"; };
+		3D2A944E2683FD837F47382C /* Pods-JCStateControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCStateControl_Example.modulemap"; sourceTree = "<group>"; };
+		3FD72E38B1DFCEB978B91391 /* JCStateControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JCStateControl.h; sourceTree = "<group>"; };
+		440AD057B072DB45C7D6B252 /* JCStateMachine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JCStateMachine.h; sourceTree = "<group>"; };
+		4C7E536092BC2575A2EED34F /* Pods-JCStateControl_Example-JCStateControl-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCStateControl_Example-JCStateControl-Private.xcconfig"; sourceTree = "<group>"; };
+		56A16FC0D60BF5F8728666CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585608D9BC06C1D8B2D1992A /* Hello.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
+		5F6A8528BFEFD1FEA1DBC878 /* JCAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JCAction.m; sourceTree = "<group>"; };
+		6379AC7CBB8ECE907D795A12 /* Pods-JCStateControl_Tests-JCStateControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JCStateControl_Tests-JCStateControl-prefix.pch"; path = "../Pods-JCStateControl_Tests-JCStateControl/Pods-JCStateControl_Tests-JCStateControl-prefix.pch"; sourceTree = "<group>"; };
+		67A6CDEEC77435CE042A936C /* JCEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JCEvent.m; sourceTree = "<group>"; };
+		6A1F28EE5171729B3744B72B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-JCStateControl_Tests-JCStateControl/Info.plist"; sourceTree = "<group>"; };
+		6DB515AC23AE37D8312FC50E /* JCStateDependentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JCStateDependentControl.h; sourceTree = "<group>"; };
+		6EFE0C89B189FFD9D3122826 /* Pods-JCStateControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCStateControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		70BAEBE66B71A830B105D135 /* Pods-JCStateControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCStateControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		711D8AC53EBCE2DF3155F17C /* Pods-JCStateControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCStateControl_Example-resources.sh"; sourceTree = "<group>"; };
+		722D246FC49F1A134CB79594 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788124C40AE39FDAA7C070DB /* Pods-JCStateControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCStateControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		7B0941A304694ED426E054E1 /* Pods-JCStateControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCStateControl_Tests-resources.sh"; sourceTree = "<group>"; };
+		7DD688F7DBE887DF3564C283 /* Pods-JCStateControl_Example-JCStateControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCStateControl_Example-JCStateControl.modulemap"; sourceTree = "<group>"; };
+		82E6AC0E66A03A0E29E51EDA /* Pods-JCStateControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCStateControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B127B18CCA5EF8643BC9A7D /* Pods-JCStateControl_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCStateControl_Example-environment.h"; sourceTree = "<group>"; };
+		8D4D1AE8CFF668FFE6663BFD /* Pods-JCStateControl_Example-JCStateControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCStateControl_Example-JCStateControl-umbrella.h"; sourceTree = "<group>"; };
+		9F982503A120BC4B569A89F3 /* Pods-JCStateControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCStateControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FCD424808872E65D3AA55ED /* Pods-JCStateControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCStateControl_Example-umbrella.h"; sourceTree = "<group>"; };
+		A574E3232BEDA063AB9871F1 /* JCState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JCState.h; sourceTree = "<group>"; };
+		A6E614E847E9257333945E68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83BF536A3EFC85E10A4D740 /* Pods-JCStateControl_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCStateControl_Tests-environment.h"; sourceTree = "<group>"; };
+		AC2F0586C60F9CD36FFE90CA /* Pods-JCStateControl_Tests-JCStateControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JCStateControl_Tests-JCStateControl-umbrella.h"; path = "../Pods-JCStateControl_Tests-JCStateControl/Pods-JCStateControl_Tests-JCStateControl-umbrella.h"; sourceTree = "<group>"; };
+		B0F8D5ECAE30F84784760DC3 /* Pods-JCStateControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCStateControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA4B56FD4356F2C74B0C0F77 /* Pods-JCStateControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCStateControl_Tests.modulemap"; sourceTree = "<group>"; };
+		BAEFA70FC21CEBCE1CBF9CDF /* Pods-JCStateControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCStateControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BD256AD8CBBA296025A840CD /* JCStateControl.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCStateControl.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE03180E95E3DB01A8F6C9D5 /* Pods-JCStateControl_Tests-JCStateControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-JCStateControl_Tests-JCStateControl.modulemap"; path = "../Pods-JCStateControl_Tests-JCStateControl/Pods-JCStateControl_Tests-JCStateControl.modulemap"; sourceTree = "<group>"; };
+		BFCD1AC3B0617F53C7E6C4DC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0CD06B9912FD73A6C90E695 /* JCState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JCState.m; sourceTree = "<group>"; };
+		C2E0B2DC35081C3B7E2393C1 /* Pods-JCStateControl_Example-JCStateControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCStateControl_Example-JCStateControl-dummy.m"; sourceTree = "<group>"; };
+		C9519964FB8FC2E47D7E35A2 /* Hello.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		CCEBB5E10F6B246213529FF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D17ED3D44A64597BF91A9EE1 /* JCStateDependentControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JCStateDependentControl.m; sourceTree = "<group>"; };
+		D405E3471B0AFDE6083C5EB0 /* Pods-JCStateControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCStateControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DCE756A8664021EDF3D08766 /* Pods_JCStateControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCStateControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AF596197956EF87139F8B0 /* JCStateControl.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCStateControl.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99491CF2A62BD91660DEEC3 /* Pods-JCStateControl_Tests-JCStateControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCStateControl_Tests-JCStateControl.xcconfig"; path = "../Pods-JCStateControl_Tests-JCStateControl/Pods-JCStateControl_Tests-JCStateControl.xcconfig"; sourceTree = "<group>"; };
+		E9EB4A056A93D89A3CA14675 /* Pods-JCStateControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCStateControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F327A46148AAC9D30A6297A7 /* Pods-JCStateControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCStateControl_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E336CA883D362F6D7FC3040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E515E0075015069F1010836B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7867AA40900B3FE9ABF8529B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD997909E568003E707A929 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1C8817AE2852A2B92F11D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CB8A0A06C3AD339B8528F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E491F4AAC123CE57CAFCE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6472F0742C57D76851CAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35D78ED5A878D67D7969D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943ACC7F2C9A011A83FD0BF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BA33E4C36E497EFDC57EDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5AF596197956EF87139F8B0 /* JCStateControl.bundle */,
+				BD256AD8CBBA296025A840CD /* JCStateControl.bundle */,
+				241DA5EA802A01028A9BD200 /* JCStateControl.framework */,
+				1E44B742FF1066A668D46857 /* JCStateControl.framework */,
+				DCE756A8664021EDF3D08766 /* Pods_JCStateControl_Example.framework */,
+				1D59583CA56B99E2E21E2FDD /* Pods_JCStateControl_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16D46FAB8843E157B846A3C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFA2540C0AA5C9AC4ADB872C /* JCStateControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		20416C36EC6DCA0DEFEAC6B9 /* StateMachine */ = {
+			isa = PBXGroup;
+			children = (
+				12CB2D903E93A61F535B4F1B /* JCAction.h */,
+				5F6A8528BFEFD1FEA1DBC878 /* JCAction.m */,
+				0DA8EDBD8344C2ECD1B0F316 /* JCEvent.h */,
+				67A6CDEEC77435CE042A936C /* JCEvent.m */,
+				0AEBB935AB63ED50D1AA21DD /* JCMessage.h */,
+				257421CEA878F033F8263534 /* JCMessage.m */,
+				A574E3232BEDA063AB9871F1 /* JCState.h */,
+				C0CD06B9912FD73A6C90E695 /* JCState.m */,
+				3FD72E38B1DFCEB978B91391 /* JCStateControl.h */,
+				6DB515AC23AE37D8312FC50E /* JCStateDependentControl.h */,
+				D17ED3D44A64597BF91A9EE1 /* JCStateDependentControl.m */,
+				440AD057B072DB45C7D6B252 /* JCStateMachine.h */,
+				077337AD7CC4D3653384737F /* JCStateMachine.m */,
+			);
+			path = StateMachine;
+			sourceTree = "<group>";
+		};
+		55572833E77695BAB9A1E3DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A264AEEE578C7E78AE1B958F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E2D2A7B0FBDE94134F555D2 /* Pods-JCStateControl_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A6E614E847E9257333945E68 /* Info.plist */,
+				3D2A944E2683FD837F47382C /* Pods-JCStateControl_Example.modulemap */,
+				9F982503A120BC4B569A89F3 /* Pods-JCStateControl_Example-acknowledgements.markdown */,
+				1726609796FCE55987084EF5 /* Pods-JCStateControl_Example-acknowledgements.plist */,
+				F327A46148AAC9D30A6297A7 /* Pods-JCStateControl_Example-dummy.m */,
+				8B127B18CCA5EF8643BC9A7D /* Pods-JCStateControl_Example-environment.h */,
+				364B340F9F971F72C7471AE9 /* Pods-JCStateControl_Example-frameworks.sh */,
+				711D8AC53EBCE2DF3155F17C /* Pods-JCStateControl_Example-resources.sh */,
+				9FCD424808872E65D3AA55ED /* Pods-JCStateControl_Example-umbrella.h */,
+				BAEFA70FC21CEBCE1CBF9CDF /* Pods-JCStateControl_Example.debug.xcconfig */,
+				6EFE0C89B189FFD9D3122826 /* Pods-JCStateControl_Example.release.xcconfig */,
+			);
+			name = "Pods-JCStateControl_Example";
+			path = "Target Support Files/Pods-JCStateControl_Example";
+			sourceTree = "<group>";
+		};
+		93334B6E72FE75C2235F939B /* Pods-JCStateControl_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				56A16FC0D60BF5F8728666CF /* Info.plist */,
+				BA4B56FD4356F2C74B0C0F77 /* Pods-JCStateControl_Tests.modulemap */,
+				33287FE57F6DA6FF1657F0F6 /* Pods-JCStateControl_Tests-acknowledgements.markdown */,
+				82E6AC0E66A03A0E29E51EDA /* Pods-JCStateControl_Tests-acknowledgements.plist */,
+				788124C40AE39FDAA7C070DB /* Pods-JCStateControl_Tests-dummy.m */,
+				A83BF536A3EFC85E10A4D740 /* Pods-JCStateControl_Tests-environment.h */,
+				70BAEBE66B71A830B105D135 /* Pods-JCStateControl_Tests-frameworks.sh */,
+				7B0941A304694ED426E054E1 /* Pods-JCStateControl_Tests-resources.sh */,
+				E9EB4A056A93D89A3CA14675 /* Pods-JCStateControl_Tests-umbrella.h */,
+				B0F8D5ECAE30F84784760DC3 /* Pods-JCStateControl_Tests.debug.xcconfig */,
+				D405E3471B0AFDE6083C5EB0 /* Pods-JCStateControl_Tests.release.xcconfig */,
+			);
+			name = "Pods-JCStateControl_Tests";
+			path = "Target Support Files/Pods-JCStateControl_Tests";
+			sourceTree = "<group>";
+		};
+		A087072DC31A69EF30DFACAD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9519964FB8FC2E47D7E35A2 /* Hello.h */,
+				585608D9BC06C1D8B2D1992A /* Hello.m */,
+				20416C36EC6DCA0DEFEAC6B9 /* StateMachine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A264AEEE578C7E78AE1B958F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CCEBB5E10F6B246213529FF5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A44C79F02BDE95FB791308EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				722D246FC49F1A134CB79594 /* Info.plist */,
+				6A1F28EE5171729B3744B72B /* Info.plist */,
+				7DD688F7DBE887DF3564C283 /* Pods-JCStateControl_Example-JCStateControl.modulemap */,
+				0B05EBF8C554D1E5E227DCE6 /* Pods-JCStateControl_Example-JCStateControl.xcconfig */,
+				4C7E536092BC2575A2EED34F /* Pods-JCStateControl_Example-JCStateControl-Private.xcconfig */,
+				C2E0B2DC35081C3B7E2393C1 /* Pods-JCStateControl_Example-JCStateControl-dummy.m */,
+				3C5F6BED624EA2E55F081BE7 /* Pods-JCStateControl_Example-JCStateControl-prefix.pch */,
+				8D4D1AE8CFF668FFE6663BFD /* Pods-JCStateControl_Example-JCStateControl-umbrella.h */,
+				BE03180E95E3DB01A8F6C9D5 /* Pods-JCStateControl_Tests-JCStateControl.modulemap */,
+				E99491CF2A62BD91660DEEC3 /* Pods-JCStateControl_Tests-JCStateControl.xcconfig */,
+				19A4408A63541E0CE0F2F099 /* Pods-JCStateControl_Tests-JCStateControl-Private.xcconfig */,
+				39D28C88FB0737005400718F /* Pods-JCStateControl_Tests-JCStateControl-dummy.m */,
+				6379AC7CBB8ECE907D795A12 /* Pods-JCStateControl_Tests-JCStateControl-prefix.pch */,
+				AC2F0586C60F9CD36FFE90CA /* Pods-JCStateControl_Tests-JCStateControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-JCStateControl_Example-JCStateControl";
+			sourceTree = "<group>";
+		};
+		AD3AB487A274E13714991583 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A087072DC31A69EF30DFACAD /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BFA2540C0AA5C9AC4ADB872C /* JCStateControl */ = {
+			isa = PBXGroup;
+			children = (
+				AD3AB487A274E13714991583 /* Pod */,
+				A44C79F02BDE95FB791308EC /* Support Files */,
+			);
+			name = JCStateControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CE779BEE59152E21F38CD9C8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E2D2A7B0FBDE94134F555D2 /* Pods-JCStateControl_Example */,
+				93334B6E72FE75C2235F939B /* Pods-JCStateControl_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E69169585908A97AA0BE51A6 = {
+			isa = PBXGroup;
+			children = (
+				BFCD1AC3B0617F53C7E6C4DC /* Podfile */,
+				16D46FAB8843E157B846A3C1 /* Development Pods */,
+				55572833E77695BAB9A1E3DB /* Frameworks */,
+				02BA33E4C36E497EFDC57EDC /* Products */,
+				CE779BEE59152E21F38CD9C8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1095006CA6364D775DA33D0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A86F1A7E324E5B24C1B6A90 /* Pods-JCStateControl_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CAC71889E71E7FFE58883B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C8330614DFE736757062AA /* Hello.h in Headers */,
+				43AA19B3D78ECFEA81C09AB7 /* JCAction.h in Headers */,
+				C5EC9FDB6D186BFE4598F4EA /* JCEvent.h in Headers */,
+				D0E721D56444C1259095902A /* JCMessage.h in Headers */,
+				8FB019573FDF48D12D2E24A4 /* JCState.h in Headers */,
+				EA07AB763AD48E54F93FA4C8 /* JCStateControl.h in Headers */,
+				7C4C4F4DE4B8D56BA19B61CA /* JCStateDependentControl.h in Headers */,
+				9F63CBA309EB3A5D254B99D5 /* JCStateMachine.h in Headers */,
+				EB0666B91A9FD3C86EE62D36 /* Pods-JCStateControl_Tests-JCStateControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A39BBEEF6C721DCD748D06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5724061687B670BF31015F /* Pods-JCStateControl_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47DDBEF9A0C5DFC95D37609 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC540926E91E32599B8B9664 /* Hello.h in Headers */,
+				9607E68A23EF354C672F11E3 /* JCAction.h in Headers */,
+				85F58EFBBB8CB5A694D7961B /* JCEvent.h in Headers */,
+				31ED10B5982E3AF3587C68B4 /* JCMessage.h in Headers */,
+				2A3C17180E3A7F1748253A27 /* JCState.h in Headers */,
+				1ED49B6AFAEC846702E386F4 /* JCStateControl.h in Headers */,
+				082F072FDEA09410ADE04106 /* JCStateDependentControl.h in Headers */,
+				F99C910553266F3ED4700A23 /* JCStateMachine.h in Headers */,
+				19E13AC6F02F3298C8E7C4F2 /* Pods-JCStateControl_Example-JCStateControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F99E1BBCB259ADC5817C1FD /* Pods-JCStateControl_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9110F35BBB2647DF36622DE5 /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Example" */;
+			buildPhases = (
+				6167856B2267957E7B56A07A /* Sources */,
+				7B1C8817AE2852A2B92F11D7 /* Frameworks */,
+				C5A39BBEEF6C721DCD748D06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B5F67CBED3E16AF5119E61 /* PBXTargetDependency */,
+			);
+			name = "Pods-JCStateControl_Example";
+			productName = "Pods-JCStateControl_Example";
+			productReference = DCE756A8664021EDF3D08766 /* Pods_JCStateControl_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B24F4A528303BF6F8D01F69 /* Pods-JCStateControl_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2675D6C11407CB73453B5D02 /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Tests" */;
+			buildPhases = (
+				02D0E971D1DD97889201438C /* Sources */,
+				1E336CA883D362F6D7FC3040 /* Frameworks */,
+				1095006CA6364D775DA33D0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA284EFE65BD4FC628A7456C /* PBXTargetDependency */,
+			);
+			name = "Pods-JCStateControl_Tests";
+			productName = "Pods-JCStateControl_Tests";
+			productReference = 1D59583CA56B99E2E21E2FDD /* Pods_JCStateControl_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		815B03AA14B532B2D1385616 /* Pods-JCStateControl_Example-JCStateControl-JCStateControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8233B1A6F368F7118A73288A /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Example-JCStateControl-JCStateControl" */;
+			buildPhases = (
+				61E3930F08CC7C814420C689 /* Sources */,
+				9C6472F0742C57D76851CAA3 /* Frameworks */,
+				DE5CB53FCD65A35A06DB4196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JCStateControl_Example-JCStateControl-JCStateControl";
+			productName = "Pods-JCStateControl_Example-JCStateControl-JCStateControl";
+			productReference = BD256AD8CBBA296025A840CD /* JCStateControl.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B71956F1605CAEDDA4E7321B /* Pods-JCStateControl_Example-JCStateControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101CFDD19509AB0968C356A3 /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Example-JCStateControl" */;
+			buildPhases = (
+				A1B41BA1A0ED1D32507BC8DE /* Sources */,
+				7867AA40900B3FE9ABF8529B /* Frameworks */,
+				C68A29B2818B21717C6B3757 /* Resources */,
+				F47DDBEF9A0C5DFC95D37609 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D10054FE8558767227694D /* PBXTargetDependency */,
+			);
+			name = "Pods-JCStateControl_Example-JCStateControl";
+			productName = "Pods-JCStateControl_Example-JCStateControl";
+			productReference = 241DA5EA802A01028A9BD200 /* JCStateControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD71E8C0FE19956987C02735 /* Pods-JCStateControl_Tests-JCStateControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C733EA1227994E56420B466E /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Tests-JCStateControl" */;
+			buildPhases = (
+				DEEBBB1EFDBD396ED4032442 /* Sources */,
+				C35D78ED5A878D67D7969D88 /* Frameworks */,
+				CFEBB23FDBD2CE1C1DB3BC28 /* Resources */,
+				B9CAC71889E71E7FFE58883B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03994A30ED1DB0D5CAF56349 /* PBXTargetDependency */,
+			);
+			name = "Pods-JCStateControl_Tests-JCStateControl";
+			productName = "Pods-JCStateControl_Tests-JCStateControl";
+			productReference = 1E44B742FF1066A668D46857 /* JCStateControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0A9CFFA87F93202CD0B3D4D /* Pods-JCStateControl_Tests-JCStateControl-JCStateControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F559CE5AE42D92095E040479 /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Tests-JCStateControl-JCStateControl" */;
+			buildPhases = (
+				2BDE059A45BAD7C2CA38311E /* Sources */,
+				8E491F4AAC123CE57CAFCE0F /* Frameworks */,
+				BDE0A7263F491876AFD0BEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JCStateControl_Tests-JCStateControl-JCStateControl";
+			productName = "Pods-JCStateControl_Tests-JCStateControl-JCStateControl";
+			productReference = E5AF596197956EF87139F8B0 /* JCStateControl.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51A22019365D88BE685C2D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 8567DD6A6BB616462126BB28 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E69169585908A97AA0BE51A6;
+			productRefGroup = 02BA33E4C36E497EFDC57EDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F99E1BBCB259ADC5817C1FD /* Pods-JCStateControl_Example */,
+				B71956F1605CAEDDA4E7321B /* Pods-JCStateControl_Example-JCStateControl */,
+				815B03AA14B532B2D1385616 /* Pods-JCStateControl_Example-JCStateControl-JCStateControl */,
+				6B24F4A528303BF6F8D01F69 /* Pods-JCStateControl_Tests */,
+				BD71E8C0FE19956987C02735 /* Pods-JCStateControl_Tests-JCStateControl */,
+				D0A9CFFA87F93202CD0B3D4D /* Pods-JCStateControl_Tests-JCStateControl-JCStateControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDE0A7263F491876AFD0BEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68A29B2818B21717C6B3757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C80138CF5192AB0191CD8BC /* JCStateControl.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEBB23FDBD2CE1C1DB3BC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FC90FCA7B7149F1621E777 /* JCStateControl.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5CB53FCD65A35A06DB4196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D0E971D1DD97889201438C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E972A33FE5A03BE37AC166F5 /* Pods-JCStateControl_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDE059A45BAD7C2CA38311E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6167856B2267957E7B56A07A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD0A7D695C3F37F42E4D969 /* Pods-JCStateControl_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E3930F08CC7C814420C689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B41BA1A0ED1D32507BC8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69CB6104FF0E613A836B8CE /* Hello.m in Sources */,
+				6D06E664EE95B29F170EA331 /* JCAction.m in Sources */,
+				AE06BAB05E008CED7CFD5464 /* JCEvent.m in Sources */,
+				D1BB4B3C28BB6B5655B388EA /* JCMessage.m in Sources */,
+				57A37CD487C558B8D39F8E21 /* JCState.m in Sources */,
+				21962C8E337D942B19A82228 /* JCStateDependentControl.m in Sources */,
+				86F0C23D3AB3F69CFFC1D1E6 /* JCStateMachine.m in Sources */,
+				29366737FB0D21E56D6BA88D /* Pods-JCStateControl_Example-JCStateControl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEBBB1EFDBD396ED4032442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E7F23B8F59A88ABF60495A /* Hello.m in Sources */,
+				442C3482C16E188908F5AAE9 /* JCAction.m in Sources */,
+				7E6B11DCAAA855EEEE846C37 /* JCEvent.m in Sources */,
+				3CA1476804F193A91D895271 /* JCMessage.m in Sources */,
+				DBCAC2D916D263D31FF9A3F6 /* JCState.m in Sources */,
+				2CC649EA200FC9D87D9DC45A /* JCStateDependentControl.m in Sources */,
+				7801DC2751748DE44192FFAF /* JCStateMachine.m in Sources */,
+				4881F4165406E565882E5A18 /* Pods-JCStateControl_Tests-JCStateControl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03994A30ED1DB0D5CAF56349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCStateControl_Tests-JCStateControl-JCStateControl";
+			target = D0A9CFFA87F93202CD0B3D4D /* Pods-JCStateControl_Tests-JCStateControl-JCStateControl */;
+			targetProxy = 7DDD5A8776B88943774E8FE5 /* PBXContainerItemProxy */;
+		};
+		03D10054FE8558767227694D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCStateControl_Example-JCStateControl-JCStateControl";
+			target = 815B03AA14B532B2D1385616 /* Pods-JCStateControl_Example-JCStateControl-JCStateControl */;
+			targetProxy = CCE90430750403F1B589ABA4 /* PBXContainerItemProxy */;
+		};
+		B9B5F67CBED3E16AF5119E61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCStateControl_Example-JCStateControl";
+			target = B71956F1605CAEDDA4E7321B /* Pods-JCStateControl_Example-JCStateControl */;
+			targetProxy = 2516730DFC4B837CB029EE9D /* PBXContainerItemProxy */;
+		};
+		DA284EFE65BD4FC628A7456C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCStateControl_Tests-JCStateControl";
+			target = BD71E8C0FE19956987C02735 /* Pods-JCStateControl_Tests-JCStateControl */;
+			targetProxy = D7613AD86CE3EC3564C4A6AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0074652C4E9FDD25DF3882E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D405E3471B0AFDE6083C5EB0 /* Pods-JCStateControl_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JCStateControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCStateControl_Tests/Pods-JCStateControl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JCStateControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		078653E424D7AA2A0C3C0929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280637DE2847AF3C00B0D4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7E536092BC2575A2EED34F /* Pods-JCStateControl_Example-JCStateControl-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCStateControl_Example-JCStateControl/Pods-JCStateControl_Example-JCStateControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCStateControl_Example-JCStateControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCStateControl_Example-JCStateControl/Pods-JCStateControl_Example-JCStateControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JCStateControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30BA910AFCE7FE4899BBA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A4408A63541E0CE0F2F099 /* Pods-JCStateControl_Tests-JCStateControl-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCStateControl_Tests-JCStateControl/Pods-JCStateControl_Tests-JCStateControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCStateControl_Tests-JCStateControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCStateControl_Tests-JCStateControl/Pods-JCStateControl_Tests-JCStateControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JCStateControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37D2C43A7C18BCE59AAFEA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7E536092BC2575A2EED34F /* Pods-JCStateControl_Example-JCStateControl-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCStateControl_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JCStateControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		429CCE22FB9FEC8AB0B0A77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A4408A63541E0CE0F2F099 /* Pods-JCStateControl_Tests-JCStateControl-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCStateControl_Tests-JCStateControl/Pods-JCStateControl_Tests-JCStateControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCStateControl_Tests-JCStateControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCStateControl_Tests-JCStateControl/Pods-JCStateControl_Tests-JCStateControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JCStateControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E643B527BF0C74055EDE7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A4408A63541E0CE0F2F099 /* Pods-JCStateControl_Tests-JCStateControl-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCStateControl_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JCStateControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5F6702EB26F65EE4D33F1007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7E536092BC2575A2EED34F /* Pods-JCStateControl_Example-JCStateControl-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCStateControl_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JCStateControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		61C3F8ADB818FCE0EDED7852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFE0C89B189FFD9D3122826 /* Pods-JCStateControl_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JCStateControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCStateControl_Example/Pods-JCStateControl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JCStateControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E29BBE62B2F58D773E34B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A4408A63541E0CE0F2F099 /* Pods-JCStateControl_Tests-JCStateControl-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCStateControl_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JCStateControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BECC09E57E29908FB4AD2222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAEFA70FC21CEBCE1CBF9CDF /* Pods-JCStateControl_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JCStateControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCStateControl_Example/Pods-JCStateControl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JCStateControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8B3B927E8D7F3F180B65783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EB58D7927AC8FCC4363DC2F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F8D5ECAE30F84784760DC3 /* Pods-JCStateControl_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JCStateControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCStateControl_Tests/Pods-JCStateControl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JCStateControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC2D441D5D6F9F0ADA0536B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7E536092BC2575A2EED34F /* Pods-JCStateControl_Example-JCStateControl-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCStateControl_Example-JCStateControl/Pods-JCStateControl_Example-JCStateControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCStateControl_Example-JCStateControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCStateControl_Example-JCStateControl/Pods-JCStateControl_Example-JCStateControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JCStateControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		101CFDD19509AB0968C356A3 /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Example-JCStateControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2D441D5D6F9F0ADA0536B6 /* Debug */,
+				280637DE2847AF3C00B0D4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2675D6C11407CB73453B5D02 /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB58D7927AC8FCC4363DC2F8 /* Debug */,
+				0074652C4E9FDD25DF3882E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8233B1A6F368F7118A73288A /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Example-JCStateControl-JCStateControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6702EB26F65EE4D33F1007 /* Debug */,
+				37D2C43A7C18BCE59AAFEA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8567DD6A6BB616462126BB28 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B3B927E8D7F3F180B65783 /* Debug */,
+				078653E424D7AA2A0C3C0929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9110F35BBB2647DF36622DE5 /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BECC09E57E29908FB4AD2222 /* Debug */,
+				61C3F8ADB818FCE0EDED7852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C733EA1227994E56420B466E /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Tests-JCStateControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BA910AFCE7FE4899BBA218 /* Debug */,
+				429CCE22FB9FEC8AB0B0A77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F559CE5AE42D92095E040479 /* Build configuration list for PBXNativeTarget "Pods-JCStateControl_Tests-JCStateControl-JCStateControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E643B527BF0C74055EDE7C8 /* Debug */,
+				7E29BBE62B2F58D773E34B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51A22019365D88BE685C2D84 /* Project object */;
+}
