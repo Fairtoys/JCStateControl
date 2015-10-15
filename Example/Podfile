@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JCStateControl_Example', :exclusive => true do
+  pod "JCStateControl", :path => "../"
+end
+
+target 'JCStateControl_Tests', :exclusive => true do
+  pod "JCStateControl", :path => "../"
+
+  
+end
